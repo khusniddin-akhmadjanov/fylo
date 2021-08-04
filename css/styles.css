@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("Raleway-Thin.woff2") format("woff2"),
-      url("Raleway-Thin.woff") format("woff");
+  src: url("../fonts/Raleway-Thin.woff2") format("woff2"),
+      url("../fonts/Raleway-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -27,12 +27,12 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("Raleway-ThinItalic.woff2") format("woff2"),
-      url("Raleway-ThinItalic.woff") format("woff");
+  src: url("../fonts/Raleway-ThinItalic.woff2") format("woff2"),
+      url("../fonts/Raleway-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
-}
+} 
 
 * {
   box-sizing: border-box;
