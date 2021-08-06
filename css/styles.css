@@ -680,7 +680,6 @@ body {
 
 /* HEADER SECTION */
 
-
 @media only screen  and (max-width:780px){
   .nav__link {
     font-size: 14px;
@@ -734,28 +733,46 @@ body {
 
 }
 
-@media only screen  and (max-width:530px) {
+@media only screen  and (max-width:550px) {
   
-  .nav__item {
-    margin-right: 10px;
+  .header {
+    width: 400px;
+    padding: 25px 15px;
   }
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
 
   .nav__link {
     font-size: 12px;
-    margin: 0;
     padding: 0;
+    margin: 0;
   }
 
-  .nav__list {
-    padding: 0;
-    margin: 0;
+  .nav__item {
+    margin-left: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .site__logo-img{
+    width: 106px;
+    height: 31px;
+  }
+
+  .site__logo{
+    width: 106px;
+    height: 31px;
   }
 
 }
 
 @media only screen  and (max-width:473px) {
   .header {
-    width: 450px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -779,8 +796,10 @@ body {
 
 @media only screen  and (max-width:375px) {
   .header {
-    width: 430px;
+    width: 375px;
     display: flex;
+    justify-content: space-between;
+    padding: 25px 5px;
   }
 
   .site__logo {
@@ -929,32 +948,12 @@ body {
 
 }
 
-@media only screen  and (max-width:879px) {
- 
-  .main__list {
-    margin-top: 50px;
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+@media only screen  and (max-width:1100px) {
+ .main__list {
+   display: flex;
+   flex-wrap: wrap;
+ }
 
-  .main__item {
-    width: 320px;
-  }
-
-  .main__img {
-    width: 64px;
-    height: 59px;
-  }
-
-  .main__text {
-    width: 320px;
-  }
-
-  .main__title {
-    width: 320px;
-  }
 
 }
 
@@ -1086,12 +1085,12 @@ body {
   }
 } 
 
-@media only screen  and (max-width:1252px) {
+@media only screen  and (max-width:1250px) {
   .info__list {
-    width: 360px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .info__item {
@@ -1112,8 +1111,9 @@ body {
 
 
 @media only screen  and (max-width:980px) {
+
   .info__list {
-    width: 350px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1142,6 +1142,14 @@ body {
 
 }
 
+@media only screen  and (max-width:831px) {
+  .info__list {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
 
 
 @media only screen  and (max-width:631px) {
@@ -1254,6 +1262,8 @@ body {
 
   .form__button {
     margin-top: 10px;
+    font-size: 12px;
+    padding: 0;
   }
 
   .form__input {
@@ -1374,16 +1384,8 @@ body {
 
 @media only screen  and (max-width:931px) {
   .footer__box {
-    display: block;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .footer {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .footer__contact-list {
